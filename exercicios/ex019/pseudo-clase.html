@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        
+        div > p {
+            display: none;
+        }
+        
+        div:hover > p  {
+            background-color: blue;
+            border-radius: 7px;
+            color: white;
+            display: block;
+            
+        }
+        div {
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando pseudo-classes</h1>
+    <p>Passe o mouse em cima</p>
+    <div>
+        Coloque o mouse em cima
+        <p>Me mama por favor </p>
+
+        
+    </div>
+</body>
+</html>

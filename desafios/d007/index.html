@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site com imagem flexível</title>
+</head>
+<body>
+    <h1>A imagem muda de tamanho conforme a largura da sua tela, experimente aumentar ou diminuir o zoom.</h1>
+    <picture> 
+        <source media="(max-width: 800px)" srcset="imagens/restpequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/restmedia.png" type="image/png">
+        <img src="imagens/restgrande.png" alt="Imagem muda de tamanho">
+    </picture>
+    <h3>Funcionou bem de boas </h3>
+</body>
+</html>

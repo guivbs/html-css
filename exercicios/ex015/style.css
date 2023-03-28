@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+*{  /* CONFIGURAÇÃO GLOBAL DAS CSS*/
+    height: 100%;
+}
+/*Posso colocar a porcetagem que eu quero que aparace da cor*/
+/*Posso usar deg para colocar no angulo que eu quiser invés de to bottom ou top*/
+body {
+    background-image: linear-gradient(135deg, #84F9CE 10%, #2DC48D 40% , #1C7856 ); 
+    background-attachment: fixed;
+}

@@ -1,0 +1,137 @@
+@charset "UTF-8" ; 
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+
+@import url('idroid.otf');
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C5EBD6 ;
+    
+}
+
+header {
+    color: white;
+    background-image: linear-gradient(180deg, #3DDC84, #063D1E);
+    padding: 10px; 
+}
+
+article > h1#titulo {
+    font-family: 'Akshar', sans-serif;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+article > p#ptitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+nav > a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Akshar', sans-serif;
+    padding: 3px 5px ;
+    
+}
+
+h1 {
+    color: #065b2b;
+    font-size: 2em;
+    font-family: 'idroid';
+}
+
+#comeco {
+    margin: -5px;
+    padding: 10px;
+}
+
+h2 {
+    color: #065b2b;
+    font-family: 'idroid';
+    background-image: linear-gradient(90deg, #c5ebd6, #c5ebd65d, #c5ebd60b);
+    text-indent: 10px;
+}
+
+nav > a:hover {
+    color: #3DDC84;
+    background-color: #063D1E;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+main {
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 0px 0px 9px 9px;
+    text-align: justify;
+    
+}
+
+.foto {
+    text-align: center;
+}
+
+#video {
+    text-align: center;
+    background-color: #063D1E;
+    padding: 20px;
+    margin: -20px; 
+}
+
+#especifico {
+    padding: 20px 0px;
+}
+
+
+.linktexto {
+    color: #0c763a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linktexto:hover {
+    color: #3DDC84;
+}
+
+.paragrafo {
+    text-indent: 15px; 
+}
+
+#fim {
+    background-color: #C5EBD6;
+    margin: 35px 0px 0px 0px;
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+
+#tfim {
+    background-color: #30a966;
+    background-image: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin: -20px -20px 0px -20px;
+    padding: 10px;
+    border-radius: 12px 12px 0px 0px;
+}
+
+footer {
+    text-align: center;
+    background-color: #063D1E;
+    color: white;
+    margin: 15px 0px 0px 0px;
+    padding: 5px;
+    font-size: 0.8em;
+}
+
+footer > p {
+    margin: 0px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexíevl">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Treinando colocar áudio no site</p>
+    
+    <audio controls preload="metadata"> <!--apague o source q vem padrao e coloca o source src, dessa maneira posso colocar varios sources src para ser mais compativel-->
+        <source src="midia/bocchu-audio.mp3" type="audio/mp3"> <!--Controls adiciona o console de audio e preload a forma de carregamento metadata [recomendado] loop eh autoexplicativo-->
+        <!--AUDIOS PARA RODAR EM TODOS NAVEGADORES MP3 E OGG-->
+        <p>Seu navegador infelizmente nao tem compatilibidade com reproducao de audio</p>
+    </audio>
+    <h1>Colocando videos</h1>
+    <p>Colocando videos hospedados no meu proprio servidor</p>
+    <!--Fazer dessa maneira SOMENTE se for desejo do cliente-->
+    <video controls width="500" poster="midia/thumb.jpg">
+        <source src="midia/walktokyosocial.mp4" type="video/mp4">
+        <!--Posso botar varios sources src para maior compatilibidade, a ordem dos arquivos importa de cima pra baixo ate o paragrafo se nenhum rodar-->
+        <!--Fazer dessa maneira SOMENTE se for desejo do cliente-->
+        <p>Seu navegador infelizmente nao tem compatilibidade com reproducao de videos</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CDyXRxNBXPA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <!--Da pra colocar vídeo do vimeo tmb mas é pago-->
+    <p>mds eu sou mt doente mas pelo menos eu to treinando kkkkkkkkkkkkk</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mYBjJKnAs1o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <p>O criador pode deixar o vídeo INDISPONÍVEL para ver no site, claro que você pode ver clicando no link que te leva ao youtube.</p>
+</body>
+</html>

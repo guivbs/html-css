@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+     background-color: lightcoral;
+}
+
+
+h1 {
+
+     color: blue;
+}   
+
+p {
+     color: aliceblue;
+}
