@@ -7,6 +7,7 @@ body {
 table {
     width: 350px;
     border-collapse: collapse;
+    position: relative;
 }
 
 caption {
@@ -29,8 +30,18 @@ td.num {
     text-align: right;   
 }
 
+tbody >  tr:nth-child(2n){
+    background-color: lightgray;
+}
+
 thead, tfoot {
     background-color: grey;
     color: white;
+}
+
+thead > tr > th {
+    position: sticky;
+    top: -1px;
+    background-color: grey;
 }
 
