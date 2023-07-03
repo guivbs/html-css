@@ -9,7 +9,12 @@ table {
     width: 500px;
 }
 
-th {
+thead, tfoot, tr#media {
+    background-color: gray;
+    color: white;
+}
+
+th, td {
     border: 1px solid black;
     padding: 10px;
     text-align: center;
